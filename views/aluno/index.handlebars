@@ -1,0 +1,23 @@
+<table>
+    <tr>
+        <th>ID</th>
+        <th>NOME</th>
+        <th>TELEFONE</th>
+        <th>E-MAIL</th>
+        <th>NOTA</th>
+        <th>SITUAÇÃO</th>
+    </tr>
+{{#each alunos}}
+    <tr>
+        <th>{{id}}</th>
+        <th>{{nome}}</th>
+        <th>{{telefone}}</th>
+        <th>{{email}}</th>
+        <th>{{nota}}</th>
+        <th>{{status}}</th>
+    </tr>
+{{/each}}
+<button>
+    <a href="cadastrar">NOVO</a>
+</button>
+</table>
