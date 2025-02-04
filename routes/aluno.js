@@ -5,6 +5,6 @@ import AlunoController from '../controllers/AlunoController.js'
 
 router.get('/', AlunoController.index);
 router.get('/cadastrar', AlunoController.cadastrar);
-router.get('/salvar', AlunoController.salvar);
+router.post('/salvar', AlunoController.salvar);
 
 export default router;

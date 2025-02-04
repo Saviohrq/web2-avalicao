@@ -27,7 +27,7 @@ class AlunoController {
         }
         Aluno.create(aluno).then(() => {
             console.log('Aluno cadastrado com sucesso!');
-            res.redirect('');
+            res.redirect('/aluno');
         })
     }
 

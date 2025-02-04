@@ -24,7 +24,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
-    res.render('admin/index');
+    res.redirect('/aluno/');
 });
 
 import aluno from './routes/aluno.js';
